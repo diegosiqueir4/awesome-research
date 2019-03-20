@@ -83,25 +83,24 @@ First things first, everyone should know version control systems. Version contro
 * svn
 * mercurial
 
+
 #### Online Git Service
 
 * [GitHub](https://github.com/): No description needed.
 * [BitBucket](https://bitbucket.org): Alternative to GitHub with free private repositories for small teams (up to 5 users).
-* [GitLab](http://gitlab.org/): Similar to GitHub and BitBucket, can be both cloud-based and self-hosted. It includes
+* [GitLab](https://about.gitlab.com/): Similar to GitHub and BitBucket, can be both cloud-based and self-hosted. It includes
   unlimited free private repositories, issue tracker and a continuous integration tool.
 
 
 #### Self-hosted Git Server
 
 * [GitLab](http://gitlab.org/): See above at [Online Git Service](#online-git-service).
-* [Gitorious](https://www.gitorious.org/): Acquired by GitLab and discontinued, but [the software](http://getgitorious.com/) can still be installed.
+* [Gitea](https://gitea.io/en-us/): Painless self-hosted Git service written in Go.
 
 
 #### Enterprise Git Service
 
 * [Rhodecode](https://rhodecode.com/)
-* [Codeplane](https://codeplane.com/)
-
 
 
 ### Pomodoro
@@ -110,7 +109,7 @@ Try [Pomodoro Technique](https://en.wikipedia.org/wiki/Pomodoro_Technique) to ga
 
 
 * [Pomotodo](https://pomotodo.com/) (`Cloud`,`Mac`,`Win`,`Android`,`iOS`,`Chrome`): A mix of todo list and pomodoro timer, with sync across devices and weekly report [Free].
-* [Tadam](http://tadamapp.com/) (`Mac`): Simple and elegant pomodoro timer [USD$ 4.99].
+* [Tadam](https://tadamapp.com/) (`Mac`): Simple and elegant pomodoro timer [USD$ 4.99].
 * [Productivity Challenge Timer](https://play.google.com/store/apps/details?id=com.wlxd.pomochallenge&hl=en) (`Android`): Pomodoro timer with great gamification features [Free].
 
 
@@ -121,13 +120,13 @@ recording them externally and then breaking them into actionable work items. Thi
 taking action on tasks, instead of on recalling them ([Wikipedia](https://en.wikipedia.org/wiki/Getting_Things_Done)).
 Tasks can be classified in contexts (@home, @computer, @office, etc), time of action (now, next actions, scheduled or
 someday) and projects. [Here](https://hamberg.no/gtd/) we have a good pragmatic guide to GTD and
-[here](http://gettingthingsdone.com/pdfs/tt_workflow_chart.pdf) a flowchart.
+[here](https://gettingthingsdone.com/pdfs/tt_workflow_chart.pdf) a flowchart.
 
 * [Wunderlist](https://www.wunderlist.com) (`Cloud`,`Mac`,`Win`,`Android`,`iOS`,`Win Store`,`Chrome OS`): Almost perfect todo lists with cooperation and sharing.
 * [Evernote](https://evernote.com/) (`Cloud`,`Mac`,`Win`,`Android`,`iOS`,`Win Store`): Not so lightweight but still very good for managing life especially since it has got a lot of integrations from a lot of other services.
-* [Anydo](http://www.any.do/) (`Cloud`,`Mac`,`Android`,`iOS`): Good because it has a very good daily review which can help users remember what to do.
+* [Anydo](https://www.any.do/) (`Cloud`,`Mac`,`Android`,`iOS`): Good because it has a very good daily review which can help users remember what to do.
 * [Todoist](https://todoist.com/) (`Cloud`,`Mac`,`Win`,`Android`,`iOS`): Todoist invented the karma system which keeps track of the tasks done.
-* [Taskade](https://taskade.com/) (`Cloud`,`Chrome OS`,`Firefox`,`Mobile coming soon`,): Taskade is a collaborative task list and outliner for team projects.
+* [Taskade](https://taskade.com/) (`Cloud`,`Mac`,`Win`,`Chrome OS`,`Firefox`,`Android`,`iOS`): Taskade is a collaborative task list and outliner for team projects.
 
 
 
@@ -140,10 +139,10 @@ someday) and projects. [Here](https://hamberg.no/gtd/) we have a good pragmatic 
 
 Coding/Numerical calculation/Analytical derivation online.
 
-* [Sagemath](https://cloud.sagemath.com/): LaTeX, R, iPython Notebook, etc.
-* [PiCloud](http://picloud.com): python, but it was acquired by Dropbox and has been shut down. The new site is [Multyvac](http://www.multyvac.com/).
+* [CoCalc (SageMathCloud)](https://cocalc.com/): LaTeX, R, iPython Notebook, etc.
+* [PiCloud](http://picloud.com): Python, but it was acquired by Dropbox and has been shut down. The new site is [Multyvac](http://www.multyvac.com/).
 * [Multyvac](https://www.multyvac.com/): Kind of the successor of PiCloud but will be more powerful for sure.
-* [WolframAlpha](http://www.wolframalpha.com/): Excellent engine to do mathematical derivation online and search.
+* [WolframAlpha](https://www.wolframalpha.com/): Excellent engine to do mathematical derivation online and search.
 
 
 
@@ -158,19 +157,19 @@ Coding/Numerical calculation/Analytical derivation online.
 
 ### Data
 
-Nature hosts a list of recommended data repositories [here](http://www.nature.com/sdata/policies/repositories).
+Nature hosts a list of recommended data repositories [here](https://www.nature.com/sdata/policies/repositories).
 
 #### General and Interdisciplinary
 
 * [DRYAD](http://datadryad.org/) (`Storage`, `Lookup`): The Dryad Digital Repository stores curated data.
 * [Figshare](https://figshare.com/) (`Storage`, `Lookup`): Data sharing and storage
-* [Data.gov](http://data.gov) (`Lookup`): Data by US Federal Government
+* [Data.gov](https://data.gov) (`Lookup`): Data by US Federal Government
 
 #### Life Science
 
-* [GenBank](http://www.ncbi.nlm.nih.gov/genbank/) (`Lookup`): Genetic sequence database
+* [GenBank](https://www.ncbi.nlm.nih.gov/genbank/) (`Lookup`): Genetic sequence database
 * [National Centers for Environmental Information](https://www.ncei.noaa.gov/) (`Lookup`): Weather, climate, coasts, oceans, and geophysics etc
-* [GEOSS Portal](http://www.geoportal.org/web/guest/geo_home_stp) (`Lookup`): Earth science data
+* [GEOSS Portal](http://www.geoportal.org) (`Lookup`): Earth science data
 
 #### Physical Sciences
 
@@ -223,14 +222,12 @@ Make use of [GitHub](http://github.com) to cooperate with others. [GitHub pages]
 * [Static Site Generator](#static-site-generator): For more please refer to [Static Site Generator](#static-site-generator).
 
 
-
 **Sphinx Themes and configurations**
 
-* Themes
-  * [rtd theme](https://github.com/snide/sphinx_rtd_theme): Developed by ReadtheDocs.org
-  * [Alabaster](https://github.com/bitprophet/alabaster): Clean and simple
-  * [Some beautiful themes](https://github.com/vkvn/sphinx-themes)
-  * [Bootstrap theme](https://ryan-roemer.github.io/sphinx-bootstrap-theme/)
+* [rtd theme](https://github.com/snide/sphinx_rtd_theme): Developed by ReadtheDocs.org
+* [Alabaster](https://github.com/bitprophet/alabaster): Clean and simple
+* [Some beautiful themes](https://github.com/vkvn/sphinx-themes)
+* [Bootstrap theme](https://ryan-roemer.github.io/sphinx-bootstrap-theme/)
 
 
 **Science Books Using Sphinx**
@@ -240,17 +237,28 @@ Make use of [GitHub](http://github.com) to cooperate with others. [GitHub pages]
 * [Neutrino Physics](https://github.com/NeuPhysics/neutrino)
 
 
+**Writing Tools**
+
+* [Hemingway App](https://hemingwayapp.com/): Highlights complex sentences, point out passive voice, and suggests alternative words.
+* [proselint](https://github.com/amperser/proselint): A linter for English prose using advice from *Garner's Modern American Usage* and more.
+* [write good](https://github.com/btford/write-good): Naive JavaScript linter for English prose.
+* [artbollocks-mode](https://github.com/sachac/artbollocks-mode): Emacs minor mode for avoiding cliches and bad grammar when writing about art (or other topics).
+* [`cut_the_crap.py`](https://jugad2.blogspot.com/2015/07/cut-crap-absolutely-essential-tool-for.html): Simple Python script to flag redundant words and gives alternative suggestions.
+* [Rousseau](https://github.com/GitbookIO/rousseau): Lightweight proofreader written in JavaScript.
+* [textlint-rule-rousseau](https://github.com/azu/textlint-rule-rousseau): A textlint rule to check English sentences using Rousseau.
+* [De-Jargonizer](http://scienceandpublic.com/): Paste your article or upload file to analyze the amount of jargon in your writing.
+
 
 ### Hosting
 
 Host your articles, notes and more.
 
-* [ReadtheDocs](http://readthedocs.org/): Turn your reStructuredText source to HTML, pdf, and epub, all done online.
+* [ReadtheDocs](http://readthedocs.org/): Turn your reStructuredText source to HTML, PDF, and epub, all done online.
 * [GitHub pages](https://pages.github.com/): Integrated with Jekyll and turns markdown posts automatically. Jekyll is a tool for blogging.
-* [GitHub](http://github.com): Just put markdown, reStructuredText, pdf or ipython notebook files on GitHub. All these formats can be previewed online. **The thing to mention is that the math in ipython notebook can be rendered on GitHub.**
+* [GitHub](http://github.com): Just put markdown, reStructuredText, PDF or IPython/Jupyter notebook files on GitHub. All these formats can be previewed online. **The thing to mention is that the math in IPython notebook can be rendered on GitHub.**
 * [Aerobatic](https://www.aerobatic.com/): A powerful alternative to GitHub Pages.
 * [Surge](https://surge.sh/): One command upload your static website to make it live. Surge also integrates GitHub hooks.
-* [Heroku](https://www.heroku.com/): The one that needs no explaination.
+* [Heroku](https://www.heroku.com/): The one that needs no explanation.
 
 Other services such as [Digital Ocean](https://www.digitalocean.com/) are also useful when it comes to dynamic websites and cloud computing.
 
@@ -282,7 +290,7 @@ These programs are running on the server and can be [hosted using these services
 
 ### Static Site Generator
 
-[Here is a nice website](https://staticsitegenerators.net/) that tells you all the static site generators. Nonethless here is a list of the most popular ones.
+[Here is a nice website](https://staticsitegenerators.net/) that tells you all the static site generators. Nonetheless here is a list of the most popular ones.
 
 * [Jekyll](http://jekyllrb.com/) (Written in `Ruby`)(`Markdown`): Jekyll is the most widely used one. The best part about Jekyll is that one just deploy to GitHub Pages by pushing the source to GitHub.
 * [Octopress](http://octopress.org/) (Written in `Ruby`)(`Markdown`): Octopress is easier to use compared with Jekyll while being somewhat compatible with Jekyll.
@@ -333,6 +341,10 @@ Markdown, reStructuredText, and LaTeX are the three chosen languages.
 Notebook softwares that you can write in Markdown:
 
 * [boostnote](https://boostnote.io/) (`Win`,`Mac`,`Linux`): Math + Markdown, with snippet note support.
+* [Quiver](http://happenapps.com/) (`Mac`,`iOS`): Programmer's notebook, math + Markdown, code snippet.
+* [Findings](http://findingsapp.com/) (`Mac`): Notebook for experimentalists, organized research materials and notes.
+* [Notion](https://www.notion.so/) (`Win`,`Mac`,`iOS`,`Android`): Notetaking with kanban, math, calendar, table, etc.
+* [Agenda](https://agenda.com/) (`Mac`,`iOS`): Notes and GTD.
 
 
 #### LaTeX
@@ -358,7 +370,7 @@ Notebook softwares that you can write in Markdown:
 
 
 
-### iPython Notebook
+### IPython Notebook
 
 Use IPython Notebook to help with your research. IPython Notebook can be previewed on GitHub directly. Here are some examples of how IPython notebook can be used.
 
@@ -463,6 +475,7 @@ Use [colors](https://github.com/mrmrs/colors) to make your HTML feels better.
 * [HTML5 Rocks](http://slides.html5rocks.com/#formula-outro-slide)
 * [Flowtime.js](https://github.com/marcolago/flowtime.js)
 * [Slides](https://github.com/briancavalier/slides)
+* [remark](https://remarkjs.com)
 
 
 ### IPython Notebook
@@ -522,6 +535,7 @@ Julia or Python language, even R is supported in [IPython Notebook/Jupyter](http
   * [jiffylab](https://github.com/ptone/jiffylab) is an open source one but not that well done.
   * [supervised-ipython-nbserver](https://github.com/writefaruq/supervised-ipython-nbserver) is a multiuser version of notebook using Django/Pinax.
 * [Matlab](http://www.mathworks.com/products/matlab/)
+* [Maple](https://www.maplesoft.com/index.aspx?L=E)
 * [RStudio](https://www.rstudio.com/) (`R`)
 
 
@@ -532,7 +546,7 @@ Julia or Python language, even R is supported in [IPython Notebook/Jupyter](http
   * [SnakeViz](https://jiffyclub.github.io/snakeviz/): A nice tool for python debugging and performance improvement.
 * [Julia](http://julialang.org/)
 * [R](http://www.r-project.org/)
-
+* [Rust](https://www.rust-lang.org/en-US/)
 
 ### Coding is Fun
 
@@ -550,14 +564,22 @@ This might be not so straightforward but remember this. Reuse your own work does
 
 ### Investigate Papers
 
-* [Meta](https://meta.science/): Find the latest papers related to your own projects.
 * [Paperscape](http://paperscape.org/): Finding interesting papers.
 * [Peerus](https://peer.us/): Monitor specific topics or journal for new and relevant papers.
 * [SciRate](https://scirate.com/): An front-end for arXiv with rates from readers.
+* [ArXiv Sanity Preserver](http://arxiv-sanity.com/): Accelerate research through arXiv specific for many things machine learning by Andrej Karpathy.
+* [Iris.ai](https://the.iris.ai/): Explore scientific papers and how they connect to a paper of your choice.
+* [Publish or Perish](https://harzing.com/resources/publish-or-perish): Retrieves and analyzes academic citations designed to empower individual academics to present their case for research impact to its best advantage.
+* [PubChase](http://pubchase.com/): Life sciences and medical literature recommendation engine.
 
 ### Get Yourself A Citable Code for Anything
 
 * [Zenodo](https://zenodo.org/): Make anything from GitHub citable by getting a DOI code here.
+
+### Get Yourself A Unique and Persistent Digital Identifier
+
+* [orcid](http://orcid.org/): Use your ORCID identifier in any research workflow to ensure you get credit for your work.
+
 
 ### Add Citations to Your Code
 
@@ -571,6 +593,10 @@ This might be not so straightforward but remember this. Reuse your own work does
 * [JabRef](https://www.jabref.org/): An open source bibliography reference manager for the BibTeX format.
 * [Mendeley](https://www.mendeley.com/): A bibliography reference manager with cloud storage and BibTeX support.
 * [Zotero](https://www.zotero.org/): An open source bibliography reference manager with syncing and BibTeX support.
+* [Zotero Style Repository](https://www.zotero.org/styles): Find any style you need.
+* [doi2bib](https://www.doi2bib.org/): Retrieves a BibTeX entry from a DOI.
+* [crossref](https://www.crossref.org/): Makes research outputs easy to find, cite, link, and assess.
+* [org-ref](https://github.com/jkitchin/org-ref): Citations, cross-references, indexes, glossaries, and bibtex utitlies for org-mode in Emacs.
 
 ### Tips for Researchers
 
@@ -628,6 +654,7 @@ StackExchange.com is a good place for professional discussions. Here is an examp
 * [Physics.StackExchange](http://physics.stackexchange.com/)
 * [Biostars](https://www.biostars.org/): StackOverflow style Q&A site for bioinformatics.
 * [NeuroStars](https://neurostars.org/): StackOverflow style Q&A site for neuroinformatics.
+* [SEQanswers](http://seqanswers.com/): Forum for next generation sequencing community.
 
 
 ## Open Source
@@ -735,9 +762,12 @@ Professional graphs should be made using professional tools.
 
 ### Free Multimedia
 
-
 * [CC Search](https://ccsearch.creativecommons.org/): Search engine for images under CC License.
 * [Unsplash](https://unsplash.com/): Free high resolution images.
+* [Academicons](https://jpswalsh.github.io/academicons/)
+* [Phylopic](http://phylopic.org/)
+
+
 
 
 ### Interesting Journals
